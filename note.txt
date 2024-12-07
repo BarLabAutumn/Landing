@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Khối CSS</title>
+</head>
+<body>
+   <div class = "left">
+        <div style="color: aliceblue;">
+            <p>Chúc mừng 30 năm thành lập khoa Công nghệ thông tin</p>
+        </div>
+    </div>
+    <div class="right">
+            <p>Chúc mừng 30 năm thành lập khoa Công nghệ thông tin</p>
+    </div>
+    <div class="block">
+        <div>
+            <div id="logo">
+                <img src="img/Logo_Official.png" alt="">
+            </div>
+            <div>
+                <div class="name-sc">
+                    <h2>
+                    Trường Đại Học Khoa Học Huế <br>
+                    Khoa Công Nghệ Thông Tin 
+                    </h2>
+                </div>
+            </div>
+            
+        </div>
+        <div class="Infor">
+                <div class="if-left">
+                    <div id="title"><h1><Strong>Information technology department</Strong></h1></div>
+                    <div>
+                        <div id="title"><h2><strong>Introduce</strong></h2></div>
+                        <div><p>Khoa Công Nghệ Thông Tin, trường Đại học Khoa học Huế được thành lập ngày 01/06/1995 <br>
+                        là một trong những nơi đào tạo ngành công nghệ thông tin đầu tiên trên cả nước.
+                        </p></div>
+                        <div id="title"><h2><strong>Target</strong></h2></div>
+                        <div><p>Đào tạo các cử nhân CNTT có kiến thức nền tảng mạnh và chuyên sâu, có phương pháp <br>
+                        luôn vững chắc và có năng lực ứng dụng thành quả mới nhất của CNTT hướng đến nền kinh tế <br>
+                        tri thức. 
+                        <div id="title"><h2><strong>Scale</strong></h2></div>
+                        <div><p>Qua gần 30 năm xây dựng và phát triển, khoa đã đào tạo được số lượng lớn các cử nhân,<br>
+                        thạc sĩ, tiến sĩ ưu tú đang công tác trên khắp mọi miền tổ quốc. 
+                        </p></div>
+                        </p></div>
+                    </div>
+                </div>
+            <div class="if-center"><img src="" alt=""></div>
+            <div class="if-right">
+                <div id="title">
+                    <h1><strong>Overview</strong></h1>
+                </div>
+                <div><p>Là một trong những khoa đào tạo Công nghệ thông tin hàng đầu cả nước <br> về quy mô đào tạo và nghiên cứu khoa học, với đội ngũ giảng viên uy tín <br> gồm 5 phó giáo sư, 9 tiến sĩ, 9 thạc sĩ và 2 trợ giảng. <br> <br>
+                Khoa hiện nay có 02 ngành đào tạo đại học, 02 ngành đào tạo cao học và <br> 01 ngành đào tạo tiến sĩ, hướng tới đào tạo học viên, sinh viên 1 toàn diện, <br> đóng góp tích cực cho sự phát triển của đất nước và hội nhập quốc tế. <br><br><br></p></div>
+                <div><p>Đào tạo cử nhân Công nghệ thông tin <br><br>
+                    Đào tạo cử nhân Kỹ thuật phần mềm (cơ chế đặc thù) <br><br>
+                    Đào tạo thạc sĩ Khoa học máy tính <br><br>
+                    Đào tạo thạc sĩ Quản lý công nghệ thông tin <br><br>
+                    Đào tạo tiến sĩ Khoa học máy tính</p></div>
+                </div>
+            </div>
+        </div>
+    <div class="cg">
+    <div>
+        <p >Congratulations</p>
+      </div>
+      <div ><p>Chào mừng 30 năm thành lập khoa Công nghệ thông tin</p></div>
+      <div>
+        <p >Congratulations</p>
+      </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nền SVG Vừa Khít</title>
+    <style>
+        .shape {
+            width: 100%;
+            height: 100vh;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2092%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient2093%26quot%3b)'%3e%3c/rect%3e%3cpath d='M185 40L603 -378' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M37 115L222 -70' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M526 482L255 753' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M524 210L343 391' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M546 47L838 -245' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M1119 443L1355 207' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1104 246L725 625' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M151 531L-242 924' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M510 525L287 748' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M461 29L296 194' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M332 75L72 335' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M624 311L239 696' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M940 475L769 646' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1403 460L1150 713' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M1009 216L853 372' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M687 555L298 944' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M765 60L461 364' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3cpath d='M475 436L245 666' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3cpath d='M382 456L737 101' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3c/path d='M1111 72L1472 -289' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3c/path d='M867 537L535 869' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3c/path d='M1087 197L1493 -209' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3c/path d='M1371 163L1743 -209' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3c/path d='M1404 297L1022 679' stroke-width='8' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3c/path d='M84 475L-174 733' stroke-width='6' stroke='url(%26quot%3b%23SvgjsLinearGradient2095%26quot%3b)' stroke-linecap='round' class='BottomLeft'%3e%3c/path%3e%3c/path d='M728 116L915 -71' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2094%26quot%3b)' stroke-linecap='round' class='TopRight'%3e%3c/path%3e%3c/path d='M571 127L798 -100' stroke-width='10' stroke='url(%26quot%3b%23SvgjsLinearGradient2095[_{{{CITATION{{{_1{](https://github.com/tarsojabbes/films-nextjs/tree/740504754bfaac4b87d4b7e2bd2401688ffb5654/pages%2Findex.js)[_{{{CITATION{{{_2{](https://github.com/pwnrrk/pwnrrk.github.io/tree/43a17b9ec166652490d0efbfbeebb2cffcbce42f/src%2Fcomponents%2FHome.js)[_{{{CITATION{{{_3{](https://github.com/IvoMiyashiro/JournaldApp/tree/58d230abff43d43023d9060384b8b4ccc8cb8e10/src%2Fstyles%2F04-background.js)

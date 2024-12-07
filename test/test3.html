@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .scroll-section {
+    padding: 100px 20px;
+    background: linear-gradient(to bottom, #eef2f5, #add4ed);
+    height: 200vh; /* Tăng chiều cao để kiểm tra cuộn */
+}
+
+.scroll-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Hiển thị khi cuộn xuống */
+.scroll-text.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Ẩn khi cuộn lên */
+.scroll-text.hide {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+</style>
+<body>
+    <div class="scroll-section">
+        <p class="scroll-text">Nội dung 1</p>
+        <p class="scroll-text">Nội dung 2</p>
+        <p class="scroll-text">Nội dung 3</p>
+        <p class="scroll-text">Nội dung 4</p>
+    </div>
+
+    <script>
+        const scrollElements = document.querySelectorAll(".scroll-text");
+    
+        const handleScroll = () => {
+            scrollElements.forEach((el) => {
+                const elementTop = el.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+    
+                // Hiển thị nếu phần tử trong tầm nhìn
+                if (elementTop < windowHeight && elementTop > 0) {
+                    el.classList.add("show");
+                    el.classList.remove("hide");
+                } else {
+                    el.classList.remove("show");
+                    el.classList.add("hide");
+                }
+            });
+        };
+    
+        window.addEventListener("scroll", handleScroll);
+    </script>
+    
+</body>
+
+</html>

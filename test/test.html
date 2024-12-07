@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệu Ứng Cuộn Trang Hai Chiều</title>
+    <style>
+        /* ===== CSS ===== */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #24517e;
+            color: white;
+        }
+
+        section {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .box {
+            width: 300px;
+            height: 150px;
+            background: #bfd4d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: #333;
+            border-radius: 8px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .box.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- ===== HTML ===== -->
+    <header>
+        <h1>Hiệu Ứng Cuộn Hai Chiều</h1>
+    </header>
+    <section>
+        <div class="box">Phần tử 1</div>
+        <div class="box">Phần tử 2</div>
+        <div class="box">Phần tử 3</div>
+        <div class="box">Phần tử 4</div>
+    </section>
+
+    <script>
+        // ===== JavaScript =====
+        const boxes = document.querySelectorAll('.box');
+
+        // Tạo Intersection Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    // Khi phần tử nằm trong khung nhìn
+                    entry.target.classList.add('show');
+                } else {
+                    // Khi phần tử rời khỏi khung nhìn
+                    entry.target.classList.remove('show');
+                }
+            });
+        }, {
+            threshold: 0.5 // Phần tử xuất hiện khi 50% của nó nằm trong khung nhìn
+        });
+
+        // Quan sát từng phần tử
+        boxes.forEach(box => observer.observe(box));
+    </script>
+</body>
+</html>
